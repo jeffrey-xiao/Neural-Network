@@ -21,7 +21,7 @@ namespace MNIST_NN {
 
         private const int INPUT_SIZE = 784;
         private const int HIDDEN_SIZE = 75;
-        private const int OUTPUT_SIZE = 100;
+        private const int OUTPUT_SIZE = 10;
 
         private Random rand = new Random();
         private double[,] w1 = new double[INPUT_SIZE, HIDDEN_SIZE];
@@ -50,6 +50,12 @@ namespace MNIST_NN {
         }
 
         private void Initialize_Weights_Click (object sender, EventArgs e) {
+            total = 0;
+            correct = 0;
+            cost = 0;
+            costList.Clear();
+            correctList.Clear();
+            iterations = 0;
             double range1 = 1 / Math.Sqrt(INPUT_SIZE);
             double range2 = 1 / Math.Sqrt(HIDDEN_SIZE);
 
