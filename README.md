@@ -8,5 +8,5 @@ represents the weights for a network of 25 hidden neurons, and "weights75.txt" r
 
 | Number of Hidden Neurons              | 25      | 50      | 75      |
 |---------------------------------------|---------|---------|---------|
-| Test Case Accuracy                    | 1059007 | 1017160 | 1384416 |
-| Number of Gradient Descent Iterations | 93.28%  | 95.20%  | 95.85%  |
+| Number of Gradient Descent Iterations | 1059007 | 1017160 | 1384416 |
+| Test Case Accuracy                    | 93.28%  | 95.20%  | 95.85%  |
